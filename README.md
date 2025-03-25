@@ -13,7 +13,7 @@
 
 
 
-## 📂 3. Dataset  
+## 📂 3. Dataset Overview
 - The dataset utilized in this project is the Credit Card Fraud Detection dataset, sourced from the ULB Machine Learning Group and made available on Kaggle. 
 - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
 - This dataset comprises transactions made by European cardholders over a two-day period in September 2013. Out of 284,807 transactions, 492 are labeled as fraudulent, highlighting the dataset's highly imbalanced nature, with fraudulent transactions accounting for only 0.172% of the data.
@@ -49,7 +49,6 @@ Due to confidentiality concerns, the dataset's features have undergone principal
    ```bash
     python FraudPrediction.py
 
-
 ## ⚙️ 6. Preprocessing & Feature Engineering  
 
 - In this stage, we prepare the dataset for model training by handling missing values, normalizing numerical features, and addressing class imbalance.  
@@ -77,7 +76,7 @@ These **preprocessing and feature engineering** steps ensure that our dataset is
 
 
 
-# 🤖 7. Model Development  
+## 🤖 7. Model Development  
 
 In this phase, we train multiple machine learning models, evaluate their performance, and fine-tune hyperparameters to enhance fraud detection accuracy.  
 
