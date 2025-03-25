@@ -14,11 +14,35 @@
 
 
 ## 📂 3. Dataset Overview
-- The dataset utilized in this project is the Credit Card Fraud Detection dataset, sourced from the ULB Machine Learning Group and made available on Kaggle. 
-- https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
-- This dataset comprises transactions made by European cardholders over a two-day period in September 2013. Out of 284,807 transactions, 492 are labeled as fraudulent, highlighting the dataset's highly imbalanced nature, with fraudulent transactions accounting for only 0.172% of the data.
-Due to confidentiality concerns, the dataset's features have undergone principal component analysis (PCA) transformation, resulting in 28 anonymized features labeled V1 through V28. Additionally, the dataset includes the 'Time' feature, representing the seconds elapsed between the first transaction and each subsequent transaction, and the 'Amount' feature, indicating the transaction amount. The target variable, 'Class,' indicates the transaction type: '0' for legitimate transactions and '1' for fraudulent ones.
-- This dataset is widely used for benchmarking fraud detection systems and presents challenges typical of real-world scenarios, such as class imbalance and the need for anonymized feature interpretation.
+
+The dataset utilized in this project is the **Credit Card Fraud Detection** dataset, sourced from the **ULB Machine Learning Group** and made available on **Kaggle**.  
+
+📌 **Dataset Link:** [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data)  
+
+### 🔹 Dataset Description  
+This dataset comprises transactions made by **European cardholders** over a **two-day period in September 2013**. It contains **284,807 transactions**, of which **492** are labeled as **fraudulent**, highlighting its highly **imbalanced nature**:  
+
+✅ **Legitimate Transactions:** 99.828% (284,315)  
+⚠️ **Fraudulent Transactions:** 0.172% (492)  
+
+## 🔹 Feature Information  
+Due to confidentiality concerns, the dataset's features have undergone **Principal Component Analysis (PCA) transformation**, resulting in **28 anonymized features** labeled **V1 through V28**.  
+
+Additionally, the dataset includes:  
+- **⏳ 'Time' Feature** – Represents the seconds elapsed between the first transaction and each subsequent transaction.  
+- **💰 'Amount' Feature** – Indicates the transaction amount.  
+- **🎯 'Class' Feature** – The target variable:  
+  - **0** → Legitimate transaction  
+  - **1** → Fraudulent transaction  
+
+## 🔹 Real-World Challenges  
+This dataset is widely used for **benchmarking fraud detection systems** and presents challenges typical of real-world scenarios:  
+- **⚠️ Severe Class Imbalance** – Fraudulent transactions are extremely rare (0.172%).  
+- **🔍 Anonymized Features** – Feature interpretation is limited due to PCA transformation.  
+- **📉 Data Distribution Issues** – Requires advanced techniques for effective fraud detection.  
+
+These characteristics make this dataset an **excellent case study** for developing robust **fraud detection models** using machine learning techniques.  
+
 
 
 ## 🛠️ 4. Technologies Used  
