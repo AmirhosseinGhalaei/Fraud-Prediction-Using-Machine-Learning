@@ -25,7 +25,7 @@ This dataset comprises transactions made by **European cardholders** over a **tw
 ✅ **Legitimate Transactions:** 99.828% (284,315)  
 ⚠️ **Fraudulent Transactions:** 0.172% (492)  
 
-## 🔹 Feature Information  
+### 🔹 Feature Information  
 Due to confidentiality concerns, the dataset's features have undergone **Principal Component Analysis (PCA) transformation**, resulting in **28 anonymized features** labeled **V1 through V28**.  
 
 Additionally, the dataset includes:  
@@ -35,7 +35,7 @@ Additionally, the dataset includes:
   - **0** → Legitimate transaction  
   - **1** → Fraudulent transaction  
 
-## 🔹 Real-World Challenges  
+### 🔹 Real-World Challenges  
 This dataset is widely used for **benchmarking fraud detection systems** and presents challenges typical of real-world scenarios:  
 - **⚠️ Severe Class Imbalance** – Fraudulent transactions are extremely rare (0.172%).  
 - **🔍 Anonymized Features** – Feature interpretation is limited due to PCA transformation.  
@@ -104,7 +104,7 @@ These **preprocessing and feature engineering** steps ensure that our dataset is
 
 In this phase, we train multiple machine learning models, evaluate their performance, and fine-tune hyperparameters to enhance fraud detection accuracy.  
 
-## 🔹 7.1 Model Selection & Training  
+### 🔹 7.1 Model Selection & Training  
 We experiment with various machine learning algorithms, including:  
 
 ✅ **Logistic Regression** – A baseline model for interpretability.  
@@ -114,7 +114,7 @@ We experiment with various machine learning algorithms, including:
 
 Each model is trained on the **preprocessed dataset** using **stratified k-fold cross-validation** to ensure balanced class distribution during training.  
 
-## 🔹 7.2 Model Evaluation Metrics  
+### 🔹 7.2 Model Evaluation Metrics  
 Given the severe **class imbalance**, traditional **accuracy** is not an ideal metric. Instead, we focus on:  
 
 🎯 **Precision** – Minimizing false positives.  
@@ -123,6 +123,35 @@ Given the severe **class imbalance**, traditional **accuracy** is not an ideal m
 🎯 **AUC-ROC Score** – Measures overall model performance in distinguishing fraud from non-fraud.  
 
 These metrics provide a **comprehensive evaluation** of our models, ensuring that we prioritize **fraud detection accuracy** while minimizing false alarms.  
+
+
+### 🔹 7.3 Hyperparameter Tuning  
+To improve performance, we fine-tune model parameters using:  
+
+✅ **GridSearchCV & RandomizedSearchCV** – For systematic hyperparameter optimization.  
+✅ **Bayesian Optimization** – To efficiently find the best model settings.  
+✅ **Early Stopping (Neural Networks)** – Prevents overfitting by stopping training when validation performance plateaus.  
+
+After evaluating multiple models, the one with the **highest AUC-ROC and F1-score** is selected for final deployment.  
+
+---
+
+## 📈 8. Predictions & Performance  
+
+This section summarizes the model’s **final results**, **key metrics**, and **insights based on predictions**.  
+
+### 🔹 8.1 Model Predictions  
+After training the models, we tested them on **unseen data** to assess their **real-world performance**. The key evaluation involved **predicting fraudulent transactions** and comparing them with actual labels.  
+
+### 🔹 8.2 Performance Metrics  
+Since fraud detection involves **imbalanced data**, we focus on:  
+
+🎯 **Precision** – The proportion of actual fraud cases among all predicted fraud cases.  
+🎯 **Recall** – The percentage of fraud cases correctly identified.  
+🎯 **F1-Score** – The harmonic mean of precision and recall.  
+🎯 **AUC-ROC Score** – Measures the model’s ability to distinguish between fraud and non-fraud.  
+
+These metrics ensure that the **selected model** effectively detects fraud **while minimizing false positives and false negatives**.  
 
 
 
