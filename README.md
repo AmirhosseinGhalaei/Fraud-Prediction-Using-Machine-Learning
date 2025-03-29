@@ -2,7 +2,7 @@
 
 ## 📌 1. Project Description  
 - This project focuses on building a machine learning model to predict fraudulent transactions based on various financial and behavioral features. The goal is to develop a reliable and scalable fraud detection system that minimizes false positives while maintaining high precision and recall.
-- This README provides an overview of the dataset, preprocessing steps, model development, and final results to help others understand and replicate the process efficiently.
+This README provides an overview of the dataset, preprocessing steps, model development, and final results to help others understand and replicate the process efficiently.
 
 
 ## 🎯 2. Key Objectives
