@@ -78,22 +78,22 @@ These characteristics make this dataset an **excellent case study** for developi
 - In this stage, we prepare the dataset for model training by handling missing values, normalizing numerical features, and addressing class imbalance.  
 
 ➖ **Data Cleaning** 
-  The dataset has **no missing values**, as confirmed through an initial **Exploratory Data Analysis (EDA)**.  
+  - The dataset has **no missing values**, as confirmed through an initial **Exploratory Data Analysis (EDA)**.  
 
 ➖ **Feature Scaling**
-  Most features (**V1–V28**) are **PCA-transformed**, so they do not require further scaling.  
+  - Most features (**V1–V28**) are **PCA-transformed**, so they do not require further scaling.  
   The **'Amount'** and **'Time'** features are **standardized using MinMaxScaler** to improve model performance.  
 
 ➖ **Class Imbalance Handling**
-  Fraudulent transactions constitute only **0.172%** of the dataset.  
+  - Fraudulent transactions constitute only **0.172%** of the dataset.  
   We apply **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the class distribution.  
 
 ➖ **Feature Selection**
-  All **PCA-generated features** are included in the model.  
+  - All **PCA-generated features** are included in the model.  
   Feature importance is analyzed using **Recursive Feature Elimination (RFE)** and **SHAP values** to identify the most influential features.  
 
 ➖ **New Feature Engineering**
-  No additional features are created due to the nature of the dataset.  
+  - No additional features are created due to the nature of the dataset.  
  **Domain-specific transformations**, such as **log transformations on 'Amount'**, are considered.  
 
 ✅ These **preprocessing and feature engineering** steps ensure that our dataset is **optimized for model training** while addressing the challenges posed by imbalanced data.  
