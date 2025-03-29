@@ -145,8 +145,7 @@ After training the models, we tested them on **unseen data** to assess their **r
 
 ### 🔹 8.2 Performance Metrics  
 
-🎯 Again, since fraud detection involves **imbalanced data**, we focus on: **Precision**, **Recall**, **F1-Score**, and **AUC-ROC Score**
-
+🎯 Again, since fraud detection involves **imbalanced data**, we focus on: **Precision**, **Recall**, **F1-Score**, and **AUC-ROC Score**.
 These metrics ensure that the **selected model** effectively detects fraud **while minimizing false positives and false negatives**.  
 
 |           Model          | Precision | Recall | F1-Score | AUC-ROC |
