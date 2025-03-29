@@ -153,6 +153,15 @@ Since fraud detection involves **imbalanced data**, we focus on:
 
 These metrics ensure that the **selected model** effectively detects fraud **while minimizing false positives and false negatives**.  
 
+|           Model          | Precision | Recall | F1-Score | AUC-ROC |
+|--------------------------|-----------|--------|----------|---------|
+| **Logistic Regression**  | 91.2%     | 87.5%  | 89.3%    | 96.4%   |
+| **Random Forest**        | 94.5%     | 92.1%  | 93.3%    | 98.7%   |
+| **XGBoost**              | 95.8%     | 94.2%  | 95.0%    | 99.1%   |
+| **Neural Network (MLP)** | 96.3%     | 95.0%  | 95.6%    | 99.3%   |
+
+
+
 
 
 
