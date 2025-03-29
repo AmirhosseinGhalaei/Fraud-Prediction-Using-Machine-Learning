@@ -37,9 +37,9 @@ Additionally, the dataset includes:
 
 ### 🔹 3.3 Real-World Challenges  
 This dataset is widely used for **benchmarking fraud detection systems** and presents challenges typical of real-world scenarios:  
-- **⚠️ Severe Class Imbalance** – Fraudulent transactions are extremely rare (0.172%).  
-- **🔍 Anonymized Features** – Feature interpretation is limited due to PCA transformation.  
-- **📉 Data Distribution Issues** – Requires advanced techniques for effective fraud detection.  
+- **Severe Class Imbalance** – Fraudulent transactions are extremely rare (0.172%).  
+- **Anonymized Features** – Feature interpretation is limited due to PCA transformation.  
+- **Data Distribution Issues** – Requires advanced techniques for effective fraud detection.  
 
 These characteristics make this dataset an **excellent case study** for developing robust **fraud detection models** using machine learning techniques.  
 
@@ -99,7 +99,6 @@ These characteristics make this dataset an **excellent case study** for developi
 ✅ These **preprocessing and feature engineering** steps ensure that our dataset is **optimized for model training** while addressing the challenges posed by imbalanced data.  
 
 
-
 ## 🤖 7. Model Development  
 
 In this phase, we train multiple machine learning models, evaluate their performance, and fine-tune hyperparameters to enhance fraud detection accuracy.  
@@ -124,7 +123,6 @@ Given the severe **class imbalance**, traditional **accuracy** is not an ideal m
 
 These metrics provide a **comprehensive evaluation** of our models, ensuring that we prioritize **fraud detection accuracy** while minimizing false alarms.  
 
-
 ### 🔹 7.3 Hyperparameter Tuning  
 To improve performance, we fine-tune model parameters using:  
 
@@ -133,7 +131,6 @@ To improve performance, we fine-tune model parameters using:
 ✅ **Early Stopping (Neural Networks)** – Prevents overfitting by stopping training when validation performance plateaus.  
 
 After evaluating multiple models, the one with the **highest AUC-ROC and F1-score** is selected for final deployment.  
-
 
 
 ## 📈 8. Predictions & Performance  
@@ -166,7 +163,6 @@ These metrics ensure that the **selected model** effectively detects fraud **whi
 This results demonstrate a highly effective fraud detection system, capable of minimizing **false positives** while capturing **fraudulent activities with high accuracy**.  
 
 
-
 ## 🏆 **9. Conclusion**  
 
 ### 🔹**9.1 Summary of Findings**  
@@ -188,13 +184,13 @@ Our fraud detection project successfully built a **robust machine learning model
 While the results are promising, there are areas for future enhancement:  
 
 - **Real-Time Fraud Detection:**  
-  - Implement the model in a live setting with streaming data for **real-time monitoring**.  
+  -  The model in a live setting with streaming data for **real-time monitoring** can be implemented.  
 
 - **Adaptive Learning:**  
-  - Integrate **online learning techniques** to continuously update the model as new fraud patterns emerge.  
+  - **Online learning techniques** can be integrated to continuously update the model as new fraud patterns emerge.  
 
 - **Explainability & Interpretability:**  
-  - Use techniques like **SHAP values** to better explain model decisions to **stakeholders and regulators**.  
+  - Using techniques like **SHAP values** to better explain model decisions to **stakeholders and regulators**.  
 
 - **Hybrid Approaches:**  
   - Combine **machine learning** with **rule-based systems** or leverage **graph-based techniques** to detect complex fraud networks.  
