@@ -96,7 +96,7 @@ These characteristics make this dataset an **excellent case study** for developi
   - No additional features are created due to the nature of the dataset.  
  **Domain-specific transformations**, such as **log transformations on 'Amount'**, are considered.  
 
-✅ These **preprocessing and feature engineering** steps ensure that our dataset is **optimized for model training** while addressing the challenges posed by imbalanced data.  
+These **preprocessing and feature engineering** steps ensure that our dataset is **optimized for model training** while addressing the challenges posed by imbalanced data.  
 
 
 ## 🤖 7. Model Development  
@@ -142,7 +142,7 @@ After training the models, we tested them on **unseen data** to assess their **r
 
 ### 🔹 8.2 Performance Metrics  
 
-🎯 Again, since fraud detection involves **imbalanced data**, we focus on: **Precision**, **Recall**, **F1-Score**, and **AUC-ROC Score**.
+Again, since fraud detection involves **imbalanced data**, we focus on: **Precision**, **Recall**, **F1-Score**, and **AUC-ROC Score**.
 These metrics ensure that the **selected model** effectively detects fraud **while minimizing false positives and false negatives**.  
 
 |           Model          | Precision | Recall | F1-Score | AUC-ROC |
