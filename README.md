@@ -6,10 +6,10 @@
 
 
 ## 🎯 2. Key Objectives
-•	Understanding the dataset and identifying key fraud indicators.
-•	Preprocessing and engineering relevant features to improve model performance.
-•	Training, evaluating, and fine-tuning multiple machine learning models.
-•	Analyzing the model’s predictions and improving overall fraud detection accuracy.
+-	Understanding the dataset and identifying key fraud indicators.
+- Preprocessing and engineering relevant features to improve model performance.
+-	Training, evaluating, and fine-tuning multiple machine learning models.
+- Analyzing the model’s predictions and improving overall fraud detection accuracy.
 
 
 
