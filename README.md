@@ -126,9 +126,9 @@ These metrics provide a **comprehensive evaluation** of our models, ensuring tha
 ### 🔹 7.3 Hyperparameter Tuning  
 To improve performance, we fine-tune model parameters using:  
 
-✅ **GridSearchCV & RandomizedSearchCV** – For systematic hyperparameter optimization.  
-✅ **Bayesian Optimization** – To efficiently find the best model settings.  
-✅ **Early Stopping (Neural Networks)** – Prevents overfitting by stopping training when validation performance plateaus.  
+➖ **GridSearchCV & RandomizedSearchCV** – For systematic hyperparameter optimization.  
+➖ **Bayesian Optimization** – To efficiently find the best model settings.  
+➖ **Early Stopping (Neural Networks)** – Prevents overfitting by stopping training when validation performance plateaus.  
 
 After evaluating multiple models, the one with the **highest AUC-ROC and F1-score** is selected for final deployment.  
 
